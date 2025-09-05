@@ -92,7 +92,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(204, 255, 255));
         jButton2.setFont(new java.awt.Font("Imprint MT Shadow", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 153, 204));
-        jButton2.setText("MARKS MANAGEMENT");
+        jButton2.setText("COURSE MANAGEMENT");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
