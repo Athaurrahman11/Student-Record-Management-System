@@ -194,10 +194,10 @@ public class StudentOpera {
                     pstmt.executeUpdate();
                 }
             }
-            return true; // success
+            return true; 
         } catch (SQLException e) {
             e.printStackTrace();
-            return false; // failure
+            return false; 
         }
     }
 
