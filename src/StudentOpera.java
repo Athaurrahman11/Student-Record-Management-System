@@ -214,7 +214,7 @@ public class StudentOpera {
 
             // Setup table model
             DefaultTableModel model = (DefaultTableModel) table.getModel();
-            model.setRowCount(0); // clear existing data
+            model.setRowCount(0);
 
             while (rs.next()) {
                 Object[] row = {
