@@ -11,9 +11,9 @@ import java.sql.*;
 
 public class DBConnection {
     public static Connection getConnection() throws SQLException {
-        String url = "jdbc:mysql://localhost:3306/studentrecords"; // database location
-        String user = "root"; // MySQL username
-        String password = ""; // MySQL password
+        String url = "jdbc:mysql://localhost:3306/studentrecords"; 
+        String user = "root"; 
+        String password = ""; 
         return DriverManager.getConnection(url, user, password);
     }
 }
